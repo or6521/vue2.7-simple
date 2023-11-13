@@ -15,6 +15,7 @@ module.exports = defineConfig({
     }
   },
   extends: [
+    'eslint:recommended', // 基础规则
     /**
      * 继承 eslint-plugin-vue 插件的规则
      * @link https://eslint.vuejs.org/user-guide/#installation
