@@ -6,7 +6,7 @@
 1. 工程化实践
     - [Eslint 格式化 JS 代码](./docs/1.Eslint+Prettier.md)
     - [Stylelint 格式化 CSS 代码](./docs/2.stylelint.md)
-    - [Husky 提交时自动格式化代码](./docs/1.%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AE%9E%E8%B7%B5/3.%20husky.md)
+    - [Husky 提交时自动格式化代码](./docs/3.husky.md)
     - [Commitlint 校验 Commit Message](./docs/1.%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AE%9E%E8%B7%B5/4.%20commitlint.md)
 2. 全家桶
     - [路由 vue-router](./docs/2.%E5%85%A8%E5%AE%B6%E6%A1%B6/1.%20%E8%B7%AF%E7%94%B1.md)
