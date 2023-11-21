@@ -1,6 +1,12 @@
 <script setup>
+import { ref } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 import TheWelcome from './components/TheWelcome.vue';
+import './directives/directives.js';
+const listArr = ref([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
+function removeItem(toRemove) {
+  listArr.value = listArr.value.filter((item) => item !== toRemove);
+}
 </script>
 
 <template>
@@ -10,6 +16,11 @@ import TheWelcome from './components/TheWelcome.vue';
 
       <div class="wrapper">
         <HelloWorld msg="You did it!" />
+        <ul v-auto-animate class="homepage-list">
+          <li v-for="(item, index) in listArr" :key="index" class="cursor-pointer" @click="removeItem(item)">
+            {{ item }}
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -45,5 +56,9 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 </style>
