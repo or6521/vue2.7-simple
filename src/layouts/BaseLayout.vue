@@ -15,6 +15,7 @@
       <router-view></router-view>
     </div>
     <div class="text-sky-500 dark:text-sky-400">Sarah Dayan</div>
+    <button class="shadow-xl">Button</button>
     <div class="base-layout__footer">Vue2.7 + Vite + Less + Eslint + Stylelint + Commitlint 工程化脚手架。</div>
   </div>
 </template>
@@ -53,7 +54,7 @@ export default {
 };
 </script>
 
-<!-- <style lang="less" scoped>
+<style lang="less" scoped>
 .base-layout {
   height: 100%;
   background-color: #f5f5f5;
@@ -71,6 +72,7 @@ export default {
       height: 41px;
       margin-left: 8px;
       padding: 0 8px;
+      color: @success;
       font-size: 14px;
       line-height: 40px;
       text-align: center;
@@ -101,4 +103,4 @@ export default {
     border-top: 1px solid #eee;
   }
 }
-</style> -->
+</style>
