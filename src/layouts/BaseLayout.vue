@@ -16,7 +16,21 @@
     </div>
     <div class="text-sky-500 dark:text-sky-400">Sarah Dayan</div>
     <button class="shadow-xl">Button</button>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
     <div class="base-layout__footer">Vue2.7 + Vite + Less + Eslint + Stylelint + Commitlint 工程化脚手架。</div>
+    <div class="mockup-code">
+      <pre data-prefix="$"><code>npm i daisyui</code></pre>
+      <pre data-prefix=">" class="text-warning"><code>installing...</code></pre>
+      <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
+    </div>
+    <div class="divider">OR</div>
+    <details class="dropdown">
+      <summary class="m-1 btn">open or close</summary>
+      <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+        <li><a>Item 1</a></li>
+        <li><a>Item 2</a></li>
+      </ul>
+    </details>
   </div>
 </template>
 
@@ -90,7 +104,7 @@ export default {
   }
 
   &__main {
-    min-height: calc(100% - 45px - 48px);
+    min-height: calc(50% - 300px);
     padding: 16px;
     overflow: auto;
   }

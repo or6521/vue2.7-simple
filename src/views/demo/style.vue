@@ -8,6 +8,8 @@
       <div class="colors-item info">info</div>
     </div>
 
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
     <p class="tips">Less 全局变量在 styles/global/variables.less 中定义</p>
 
     <p class="one-line">
@@ -34,7 +36,7 @@ export default {
 };
 </script>
 
-<!-- <style lang="less" scoped>
+<style lang="less" scoped>
 .colors {
   margin-bottom: 16px;
 
@@ -94,4 +96,4 @@ export default {
 :deep(.answer) {
   color: @success;
 }
-</style> -->
+</style>
